@@ -3,7 +3,9 @@ NeoInfra
 
 Sample spring-boot + spring-data-neo4j + spring-boot-vaadin
 
-mvn install
+Requires maven 3
+
+mvn install 
 
 java -jar neoInfra-presentation/target/NeoInfraPresentation.jar
 
