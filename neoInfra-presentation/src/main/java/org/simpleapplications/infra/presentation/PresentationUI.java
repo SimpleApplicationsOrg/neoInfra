@@ -6,14 +6,18 @@ import org.simpleapplications.infra.model.entity.Application;
 import org.simpleapplications.infra.model.entity.Label;
 import org.simpleapplications.infra.model.service.ApplicationService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.vaadin.spring.VaadinUI;
 
+import com.vaadin.annotations.Theme;
+import com.vaadin.annotations.Title;
 import com.vaadin.server.VaadinRequest;
+import com.vaadin.spring.annotation.SpringUI;
 import com.vaadin.ui.Table;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 
-@VaadinUI
+@SpringUI(path = "/ui")
+@Title("Test")
+@Theme("valo")
 public class PresentationUI extends UI {
 
 	private static final long serialVersionUID = -1992560966538224736L;
