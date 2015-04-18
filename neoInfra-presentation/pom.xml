@@ -59,6 +59,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>NeoInfraPresentation</finalName>
 	</build>
 
     <name>NeoInfraPresentation</name>

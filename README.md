@@ -9,4 +9,4 @@ mvn install
 
 java -jar neoInfra-presentation/target/NeoInfraPresentation.jar
 
-In a browser : http://localhost:8080
+In a browser : http://localhost:8080/ui
