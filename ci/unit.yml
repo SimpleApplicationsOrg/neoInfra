@@ -6,4 +6,5 @@ inputs:
 - name: neoInfra
 
 run:
-  path: ls 
+  path: neoInfra/mvn
+  args: [test] 
