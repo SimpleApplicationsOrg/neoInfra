@@ -7,4 +7,4 @@ inputs:
 
 run:
   path: ls
-  args: [neoInfra] 
+  args: [neoInfra/ci] 
