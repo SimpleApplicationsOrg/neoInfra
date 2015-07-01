@@ -1,0 +1,2 @@
+cd neoInfra 
+mvn clean install

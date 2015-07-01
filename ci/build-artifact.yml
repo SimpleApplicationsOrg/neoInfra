@@ -1,0 +1,9 @@
+platform: linux
+
+image: docker:///niftyinc/ubuntu-mvn
+
+inputs:
+- name: neoInfra
+
+run:
+  path: neoInfra/ci/build
