@@ -2,9 +2,6 @@ platform: linux
 
 image: docker:///niftyinc/ubuntu-mvn
 
-inputs:
-- name: neoInfra
-
 run:
-  path: neoInfra/mvn 
-  args: [test]
+  path: ls
+  args: [-sal]
