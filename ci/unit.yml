@@ -1,9 +1,10 @@
 platform: linux
 
-image: docker:///niftyinc/ubuntu-mvn
+image: docker:///ubuntu#14.04
 
 inputs:
 - name: neoInfra
 
 run:
-  path: neoInfra/mvn test
+  path: neoInfra/mvn 
+  args: [test]
