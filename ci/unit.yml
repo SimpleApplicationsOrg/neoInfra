@@ -3,5 +3,4 @@ platform: linux
 image: docker:///niftyinc/ubuntu-mvn
 
 run:
-  path: ls
-  args: [-sal]
+  path: pwd
