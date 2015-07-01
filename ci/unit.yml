@@ -6,5 +6,4 @@ inputs:
 - name: neoInfra
 
 run:
-  path: ls
-  args: [neoInfra/ci] 
+  path: neoInfra/ci/test
