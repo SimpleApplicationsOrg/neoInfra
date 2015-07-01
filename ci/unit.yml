@@ -1,0 +1,9 @@
+platform: linux
+
+image: docker:///ubuntu#14.04
+
+inputs:
+- name: neoInfra
+
+run:
+  path: neoInfra/mvn test
